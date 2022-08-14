@@ -70,7 +70,8 @@ node_modules
 package-lock.json
 ```
 
-## ステップ7 server.jsの設定
+## ステップ7 server.jsの設定（このファイルがサーバーになるイメージ）
+localhost:3000でブラウザでaiueoが表示されるかを確認
 ```server.js
 const express = require('express');
 const app = express();
