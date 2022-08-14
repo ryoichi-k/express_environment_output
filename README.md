@@ -40,3 +40,13 @@ found 0 vulnerabilities
 ```
 ⇨アプリのファイルにpackage.jsonが作成されていることを確認
 
+
+```package.json
+"dependencies": {
+    "express": "^4.18.1",
+    "helmet": "^5.1.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19"
+  }
+```
+
