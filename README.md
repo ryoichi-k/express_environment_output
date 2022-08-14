@@ -44,7 +44,7 @@ added 119 packages, and audited 120 packages in 11s
 
 found 0 vulnerabilities
 ```
-⇨アプリのファイルにpackage.jsonが作成されていることを確認
+⇨アプリのフォルダ内にpackage.jsonが作成されていることを確認
 
 
 ```package.json
