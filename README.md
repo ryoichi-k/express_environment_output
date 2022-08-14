@@ -1,4 +1,6 @@
-# express_environment_output
+# expressでのnode.jsアプリ環境構築手順のアウトプット
+
+環境：MacOS
 
 ## ステップ１　アプリの開発フォルダを作成アンド移動
 ```
