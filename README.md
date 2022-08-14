@@ -66,9 +66,11 @@ git add .
 
 ## ステップ6 .gitignore作成
 gitignoreに以下を記述する。特にnode_modulesを忘れないこと（vscode上でステージングから下ろせるのでリカバリーは効くので大丈夫です。）
+セキュリティ上.envも忘れないように。
 ```
 node_modules
 package-lock.json
+.env
 ```
 
 ## ステップ7 server.jsの設定（このファイルがサーバーになるイメージ）
