@@ -51,13 +51,14 @@ found 0 vulnerabilities
 ```
 
 ## ステップ5 gitリポジトリ化する
+vscode上でgitの認証が発生する場合あり。その場合は認証する。
 ```
 git init
 git add .
 ```
 
 ## ステップ6 .gitignore作成
-gitignoreに以下を記述する。特にnode_modulesを忘れないこと
+gitignoreに以下を記述する。特にnode_modulesを忘れないこと（vscode上でステージングから下ろせるのでリカバリーは効くので大丈夫です。）
 ```
 node_modules
 package-lock.json
