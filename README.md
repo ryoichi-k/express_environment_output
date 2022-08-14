@@ -26,3 +26,15 @@ nodemon→サーバーをバックで起動できる。デーモン
 ```
 npm i express mongoose nodemon helmet
 ```
+
+
+
+こんなのが出たら完了
+```
+added 119 packages, and audited 120 packages in 11s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+```
