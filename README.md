@@ -69,3 +69,22 @@ gitignoreに以下を記述する。特にnode_modulesを忘れないこと（vs
 node_modules
 package-lock.json
 ```
+
+## ステップ7 server.jsの設定
+```server.js
+const express = require('express');
+const app = express();
+
+const port = 3000;
+
+
+app.get("/", (req, res) => {
+    res.send("aiueo")
+})
+
+// ポート番号を付与したアクセスURLを実行
+app.listen(port, () => {
+    console.log(`App listening at http://localhost:${port}`);
+})
+
+```
