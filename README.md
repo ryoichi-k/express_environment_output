@@ -50,13 +50,13 @@ found 0 vulnerabilities
   }
 ```
 
-## gitリポジトリ化する
+## ステップ5 gitリポジトリ化する
 ```
 git init
 git add .
 ```
 
-## .gitignore作成
+## ステップ6 .gitignore作成
 gitignoreに以下を記述する。特にnode_modulesを忘れないこと
 ```
 node_modules
