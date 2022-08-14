@@ -50,6 +50,7 @@ found 0 vulnerabilities
 
 ```package.json
 "dependencies": {
+　　　　　　　　"dotenv": "^16.0.1",
     "express": "^4.18.1",
     "helmet": "^5.1.1",
     "mongoose": "^6.5.2",
