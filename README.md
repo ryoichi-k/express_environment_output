@@ -29,8 +29,9 @@ express→フレームワーク
 mongoose→mongoDBとの連携に必要
 helmet→アプリのセキュリティ強化のためにインストール
 nodemon→サーバーをバックで起動できる。デーモン
+dotenv→node.jsで環境変数使用できる。これで.envファイルが使える。
 ```
-npm i express mongoose nodemon helmet
+npm i express mongoose nodemon helmet dotenv
 ```
 
 
