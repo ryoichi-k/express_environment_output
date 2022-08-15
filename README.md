@@ -93,3 +93,23 @@ app.listen(port, () => {
 })
 
 ```
+
+## ステップ8 内部情報をenvファイルに追記
+DB接続情報はenvファイルに記述し、githubに上がらない様にする。
+dotenvをインストールしていればすぐに使用できる。
+```.env
+#DB_MySQL
+HOST=localhost
+PORT=8000
+USER=root
+PASSWORD=passpasspassdayo
+DATABASE_NAME=naninanidb
+```
+上記を呼び出すには、
+```index.js
+//requireの下に追記
+require("dotenv").config();
+//以下の形式で呼び出し
+process.env.PORT;
+process.env.USER;
+```
