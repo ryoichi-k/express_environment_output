@@ -130,6 +130,8 @@ npm start
 ## ステップ10 余計なファイル削除
 public内のlogoファイル２つ、test系のファイルも削除。
 src内はApp.jsとindex.jsを残してあとは削除で良い。
+下記のような状態にする。
+
 App.js
 ```App.js
 function App() {
@@ -144,7 +146,7 @@ export default App;
 
 ```
 index.js
-```
+```index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
