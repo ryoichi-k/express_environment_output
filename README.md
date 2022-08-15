@@ -124,3 +124,7 @@ npx create-react-app sns-front
 cd sns-front
 npm start
 ```
+
+## ステップ10 余計なファイル削除
+public内のlogoファイル２つ、test系のファイルも削除。
+src内はApp.jsとindex.jsを残してあとは削除で良い。
