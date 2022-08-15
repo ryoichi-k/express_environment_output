@@ -113,3 +113,14 @@ require("dotenv").config();
 process.env.PORT;
 process.env.USER;
 ```
+
+## ステップ9 フロント側react
+以下コマンドで新規reactプロジェクト作成（3分くらいかかる）。Happy hacking!　と出たら成功。
+```
+npx create-react-app sns-front
+```
+サーバー立ち上がるか確かめる（自動でlocalhost:3000が立ち上がる。）
+```
+cd sns-front
+npm start
+```
