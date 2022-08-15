@@ -130,6 +130,32 @@ npm start
 ## ステップ10 余計なファイル削除
 public内のlogoファイル２つ、test系のファイルも削除。
 src内はApp.jsとindex.jsを残してあとは削除で良い。
+App.js
+```App.js
+function App() {
+  return (
+    <div className="App">
+
+    </div>
+  );
+}
+
+export default App;
+
+```
+index.js
+```
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+```
 
 ## ステップ11 githubにpush
 デフォでgit initはされていて、gitignoreもあるので、コミットしたらgithubと連携してしまって良い。
