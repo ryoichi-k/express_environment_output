@@ -119,7 +119,7 @@ process.env.USER;
 ```
 npx create-react-app sns-front
 ```
-サーバー立ち上がるか確かめる（自動でlocalhost:3000が立ち上がる。）
+サーバー立ち上がるか確かめる（自動でlocalhost:3000が立ち上がる。）Reactのロゴが回転していたら正常。
 ```
 cd sns-front
 npm start
