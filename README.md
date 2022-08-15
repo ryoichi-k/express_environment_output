@@ -1,4 +1,4 @@
-# expressでのnode.jsアプリ環境構築手順のアウトプット
+# expressでのnode.js、Reactアプリ環境構築手順のアウトプット
 
 環境：MacOS
 
