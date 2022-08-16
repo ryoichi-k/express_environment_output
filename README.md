@@ -1,5 +1,7 @@
 # expressでのnode.js、Reactアプリ環境構築手順のアウトプット
 
+１からnode.jsとreactでアプリを開発するための手順
+
 環境：MacOS
 
 npm: 8.5.1
