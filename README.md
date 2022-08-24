@@ -79,7 +79,7 @@ package-lock.json
 ```
 
 ## ステップ7 server.jsの設定（このファイルがサーバーになるイメージ）
-localhost:3000でブラウザでaiueoが表示されるかを確認
+localhost:3000でブラウザでaiueoが表示されるかを確認。（のちにreactでも3000番は使うのでバッティングを避けるためにほかの番号にしておくのがいいかも）
 ```server.js
 const express = require('express');
 const app = express();
